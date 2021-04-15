@@ -1,1 +1,27 @@
+$background_color: #DCDCDC;
+$primary_color: #483D8B;
+$par_color: #CD5C5C;
+$font_size: 18px;
+$button_background: #1E90FF;
 
+.container-one,
+.container-two{
+  background-color: $background_color;
+}
+h1{
+  color: $primary_color;
+}
+
+p{
+  color: $par_color;
+  font-size: $font_size;
+}
+
+h2{
+  color: $primary_color;
+}
+button{
+  color: $primary_color;
+  font-size: $font_size;
+  background-color: $button_background;
+}

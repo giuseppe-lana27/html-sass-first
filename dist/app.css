@@ -1,1 +1,23 @@
+.container-one,
+.container-two {
+  background-color: #DCDCDC;
+}
 
+h1 {
+  color: #483D8B;
+}
+
+p {
+  color: #CD5C5C;
+  font-size: 18px;
+}
+
+h2 {
+  color: #483D8B;
+}
+
+button {
+  color: #483D8B;
+  font-size: 18px;
+  background-color: #1E90FF;
+}
