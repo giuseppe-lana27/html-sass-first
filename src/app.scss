@@ -1,27 +1,40 @@
 $background_color: #DCDCDC;
+$container_height: 200px;
 $primary_color: #483D8B;
 $par_color: #CD5C5C;
 $font_size: 18px;
 $button_background: #1E90FF;
+$text_center: center;
+$button_padding: 10px;
+$margin_top: 25px;
 
 .container-one,
 .container-two{
+  height: $container_height;
   background-color: $background_color;
+}
+.container-two{
+  margin-top: $margin_top;
 }
 h1{
   color: $primary_color;
+  text-align: $text_center;
 }
-
 p{
   color: $par_color;
   font-size: $font_size;
 }
-
 h2{
   color: $primary_color;
+  text-align: $text_center;
 }
 button{
   color: $primary_color;
   font-size: $font_size;
   background-color: $button_background;
+  padding: $button_padding;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: $margin_top;  
 }
