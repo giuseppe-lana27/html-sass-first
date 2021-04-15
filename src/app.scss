@@ -7,6 +7,8 @@ $button_background: #1E90FF;
 $text_center: center;
 $button_padding: 10px;
 $margin_top: 25px;
+$position_absolute: absolute;
+$left_coordinated: 50%;
 
 .container-one,
 .container-two{
@@ -33,8 +35,8 @@ button{
   font-size: $font_size;
   background-color: $button_background;
   padding: $button_padding;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  margin-top: $margin_top;  
+  position: $position_absolute;
+  left: $left_coordinated;
+  transform: translate(-$left_coordinated);
+  margin-top: $margin_top;
 }
